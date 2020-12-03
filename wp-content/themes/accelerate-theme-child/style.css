@@ -21,8 +21,8 @@ Text Domain:  accelerate-theme-child
 
 .blog-post {
 	width: 50%;
-	float: left;
 	margin-bottom: 2em;
+  float: left;
 }
 
 .blog-post h4 {
@@ -41,4 +41,26 @@ Text Domain:  accelerate-theme-child
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+aside.case-study-sidebar {
+  width: 300px;
+  float: left;
+}
+
+div.case-study-images {
+  float: left;
+  width: 606px;
+}
+
+ul.homepage-featured-work {
+  list-style: none;
+  display: flex;
+  flex-flow: wrap;
+}
+
+ul.homepage-featured-work li.individual-featured-work h3 {
+  width: 300px;
+  display: flex;
+  flex-flow: wrap;
 }
