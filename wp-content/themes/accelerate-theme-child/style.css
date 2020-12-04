@@ -57,10 +57,14 @@ ul.homepage-featured-work {
   list-style: none;
   display: flex;
   flex-flow: wrap;
+  justify-content: space-between;
 }
 
-ul.homepage-featured-work li.individual-featured-work h3 {
-  width: 300px;
-  display: flex;
-  flex-flow: wrap;
+li.individual-featured-work h3 {
+  width: 31%;
+  text-align: center;
+}
+
+.featured-work h4 {
+  text-align: center;
 }
