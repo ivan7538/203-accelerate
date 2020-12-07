@@ -61,10 +61,19 @@ ul.homepage-featured-work {
 }
 
 li.individual-featured-work h3 {
-  width: 31%;
   text-align: center;
 }
 
 .featured-work h4 {
   text-align: center;
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+  margin: 3em 4em 2em;
+}
+
+aside.case-study-sidebar {
+  margin: 0 2.5em 1em 0;
 }
