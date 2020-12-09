@@ -77,3 +77,7 @@ div.case-study-images img {
 aside.case-study-sidebar {
   margin: 0 2.5em 1em 0;
 }
+
+li#menu-item-13 {
+  list-style: none;
+}
