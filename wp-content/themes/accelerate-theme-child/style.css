@@ -103,3 +103,22 @@ ul.social-media-menu {
   background: black;
   align-items: center;
 }
+
+div.nf-form-content {
+  overflow: hidden;
+}
+
+div.nf-form-content div#nf-field-1-wrap {
+  width: 49%;
+}
+div.nf-form-content div#nf-field-2-wrap {
+  width: 49%;
+}
+
+div.nf-form-content div#nf-field-1-wrap {
+  float: left;
+}
+
+div.nf-form-content div#nf-field-2-wrap {
+  float: right;
+}
