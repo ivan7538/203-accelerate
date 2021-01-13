@@ -11,6 +11,8 @@ Text Domain:  accelerate-theme-child
 */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    padding: 4em 0;
+    margin: 0;
 }
 #masthead {
   background: none repeat scroll 0 0 #45ac9d;
@@ -78,11 +80,11 @@ aside.case-study-sidebar {
   margin: 0 2.5em 1em 0;
 }
 
-ul.social-media-menu {
+ul#menu-social-media-nav.social-media-menu {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 40%;
   align-items: center;
 }
 
@@ -95,30 +97,22 @@ ul.social-media-menu {
 .social-media-menu li a {
   display: flex;
   justify-content: center;
-  font-size: 25px;
-  width: 55px;
-  height: 55px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   color: white;
-  background: black;
+  background: black no-repeat scroll right center / cover;
   align-items: center;
 }
 
-div.nf-form-content {
-  overflow: hidden;
+div.hero-about h3 {
+  margin: 0 18em 0 18em;
 }
 
-div.nf-form-content div#nf-field-1-wrap {
-  width: 49%;
-}
-div.nf-form-content div#nf-field-2-wrap {
-  width: 49%;
-}
-
-div.nf-form-content div#nf-field-1-wrap {
-  float: left;
-}
-
-div.nf-form-content div#nf-field-2-wrap {
-  float: right;
+div.fourofour h2  {
+  background: url("img/santa-clause.jpg") no-repeat scroll right center / cover;
+  line-height: 20;
+  color: red;
+  text-align: center;
+  font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
 }
